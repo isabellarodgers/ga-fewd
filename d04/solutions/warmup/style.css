@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+
+.big-text {
+  font-size: 24px;
+}
+
+#black-bg {
+  background-color: grey;
+}
