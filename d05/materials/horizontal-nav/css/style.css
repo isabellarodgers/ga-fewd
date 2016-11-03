@@ -1,0 +1,19 @@
+body {
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+.box {
+	height: 60px;
+	width: 1200px;
+	background-color: black;
+	padding-top: 20px;
+}
+
+a {
+	color: white;
+	font-style: bold;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 20px;
+}
