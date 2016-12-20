@@ -1,0 +1,53 @@
+header {
+	background-color: black;
+	padding-left: 20px;
+}
+
+nav {
+	text-align: right;
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	text-decoration: underline;
+}
+
+header h1 {
+	color: white;
+}
+
+.grid {
+	padding-bottom: 60px;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+
+.menu {
+	display: none;
+}
+
+.menu div {
+	height: 3px;
+	width: 12px;
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+@media (max-width: 767px) {
+	nav a {
+		display: block;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	.menu div {
+		display: initial;3
+	}
+}

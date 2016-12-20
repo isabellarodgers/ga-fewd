@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Owl Carousel Test</title>
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="owl-example" class="owl-carousel">
+		<div><img src="img/fullimage1.jpg"></div>
+		<div><img src="img/fullimage2.jpg"></div>
+		<div><img src="img/fullimage3.jpg"></div>
+		<div><img src="img/fullimage4.jpg"></div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script>
+    $("#owl-example").owlCarousel({
+       navigation : true, // Show next and prev buttons
+       slideSpeed : 300,
+       paginationSpeed : 400,
+       singleItem:true
+      });
+  </script>
+</body>
+</html>
