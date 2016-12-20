@@ -1,0 +1,39 @@
+body {
+	font-family: 'Francois One', sans-serif;
+}
+
+.black-line1 {
+	background-color: black;
+	height: 8px;
+	width: 2000px;
+	border-bottom: 20px solid white
+}
+
+.black-line2 {
+	background-color: black;
+	height: 8px;
+	width: 2000px;
+	border-top: 20px solid white;
+	border-bottom: 50px;
+}
+
+.page-top {
+	
+}
+
+#heading {
+	color: black;
+	text-align: center;
+	text-decoration: bold;
+}
+
+#subheadings {
+	color: black;
+	text-align: center;
+}
+
+#owl-example {
+  width: 750px;
+  height: 250px;
+  margin: 0 auto;
+}
